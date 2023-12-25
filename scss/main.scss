@@ -249,6 +249,73 @@ body {
       }
     }
   }
+   
+
+
+  .skills {
+    max-width: 1300px;
+    width: 100%;
+    min-height: 250px;
+    margin: auto;
+    margin-bottom: 48px;
+    .skills-title {
+      font-size: 38px;
+      font-weight: 500;
+    }
+
+    .skills-list {
+      @include d-flex(space-between, start);
+      margin-top: 48px;
+      .skill-card {
+        width: 120px;
+        min-height: 130px;
+        text-align: center;
+
+        img {
+          width: 80px;
+        }
+
+        .skill-title {
+          font-size: 22px;
+          margin-top: 20px;
+        }
+      }
+    }
+  }
+     
+
+  .skills {
+    max-width: 1300px;
+    width: 100%;
+    min-height: 250px;
+    margin: auto;
+    margin-bottom: 48px;
+    .skills-title {
+      font-size: 38px;
+      font-weight: 500;
+    }
+
+    .skills-list {
+      @include d-flex(space-between, start);
+      margin-top: 48px;
+      .skill-card {
+        width: 120px;
+        min-height: 130px;
+        text-align: center;
+
+        img {
+          width: 80px;
+        }
+
+        .skill-title {
+          font-size: 22px;
+          margin-top: 20px;
+        }
+      }
+    }
+  }
+
+  
 
   .about {
     max-width: 1300px;
@@ -267,7 +334,7 @@ body {
       margin-top: 48px;
       font-size: 18px;
       line-height: 1.2;
-      color: #212529;
+      color: black ($color: #0f0101);
     }
 
     .about-description-2 {
@@ -313,4 +380,5 @@ body {
     }
   }
 }
-
+ 
+ 
