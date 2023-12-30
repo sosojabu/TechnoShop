@@ -27,13 +27,16 @@ body {
       margin: auto;
       @include d-flex(space-between, center);
   
-      .logo {  
-       display: flex; 
-       align-items: center;
-      }
-      img {
+      .logo { 
+        display: flex;
+        align-items: center;
+      
+        a{
         width: 50px;
+       }
       }
+        
+      
     
       .nav-list {
         @include d-flex(start, center);
